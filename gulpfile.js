@@ -1,4 +1,5 @@
-import { src, dest, watch, series, parallel } from 'gulp';
+import gulp from 'gulp';
+const { src, dest, watch, series, parallel } = gulp;
 import gulpSass from 'gulp-sass';
 import dartSass from 'sass';
 const sass = gulpSass(dartSass);
