@@ -1,0 +1,37 @@
+{
+  "name": "square-up-3.5",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "lint": "npm run lint:js && npm run lint:scss",
+    "lint:js": "eslint .",
+    "lint:scss": "stylelint **/*.scss",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint:fix": "npm run lint:js -- --fix && npm run lint:scss -- --fix"
+  },
+  "author": "undefined",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "browser-sync": "^3.0.3",
+    "cssnano": "^7.0.6",
+    "del": "^6.1.1",
+    "eslint": "^9.17.0",
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss": "^8.4.49",
+    "prettier": "^3.4.2",
+    "sass": "^1.83.0",
+    "stylelint": "^16.12.0",
+    "stylelint-config-standard-scss": "^14.0.0",
+    "stylelint-scss": "^6.10.0"
+  }
+}
