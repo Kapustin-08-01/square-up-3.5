@@ -24,6 +24,7 @@
     "eslint": "^9.17.0",
     "gulp": "^4.0.2",
     "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^9.2.0",
     "gulp-postcss": "^10.0.0",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
